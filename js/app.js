@@ -40,6 +40,13 @@ var Player = function () {
     this.y = 320;
 };
 
+Player.prototype.update = function() {
+    
+    // If the player reaches the water
+    if (player.y < 18) {
+    this.reset();
+  }
+};
 // Now write your own player class
 // This class requires an update(), render() and
 // a handleInput() method.
