@@ -54,6 +54,28 @@ Player.prototype.render = function() {
 // Now write your own player class
 // This class requires an update(), render() and
 // a handleInput() method.
+Player.prototype.handleInput = function(direction) {
+        switch (direction) {
+        case 'up':
+            this.y -= 90;
+            break;
+        case 'down':
+            this.y += 90;
+            break;
+        case 'left':
+            this.x -= 100;
+            break;
+        case 'right':
+            this.x += 100;
+            break;
+        }
+};
+
+// Is called when the player is reset to the starting point
+Player.prototype.reset = function() {
+    this.x = 205;
+    this.y = 320;
+};
 
 
 // Now instantiate your objects.
