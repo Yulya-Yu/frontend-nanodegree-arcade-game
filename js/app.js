@@ -79,9 +79,15 @@ Player.prototype.reset = function() {
 
 
 // Now instantiate your objects.
+var enemy1 = new Enemy(-80, 50);
+var enemy2 = new Enemy(-150, 150);
+var enemy3 = new Enemy(-180, 240);
+var enemy4 = new Enemy(-270, 150);
+var enemy5 = new Enemy(-370, 50);
 // Place all enemy objects in an array called allEnemies
+var allEnemies = [enemy1, enemy2, enemy3, enemy4, enemy5];
 // Place the player object in a variable called player
-
+var player = new Player();
 
 
 // This listens for key presses and sends the keys to your
