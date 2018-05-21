@@ -9,3 +9,7 @@ https://yulya-yu.github.io/frontend-nanodegree-arcade-game/
 2) The goal is to get to the water without hiting enemy bugs. 
 3) After you reach the water your character will move back to the starting point where you can try again.
 
+## How to start the game locally
+1) Download .zip archive with files to your computer.
+2) Open file index.html in you browser.
+3) Start playing!
