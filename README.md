@@ -7,7 +7,7 @@ This project is created with the use of Object Oriented Javascript and HTML5 can
 
 https://yulya-yu.github.io/frontend-nanodegree-arcade-game/
 
-![Screenshot](img/arcade.jpg)
+![Screenshot](images/arcade.jpg)
 
 ## How to play
 1) Use the arrow keys to move your character across the field.
